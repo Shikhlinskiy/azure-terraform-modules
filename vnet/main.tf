@@ -1,7 +1,3 @@
-provider "azurerm" {
-    features {}
-    }
-
 resource "azurerm_virtual_network" "example" {
   name                = var.vnet_name
   location            = var.location
