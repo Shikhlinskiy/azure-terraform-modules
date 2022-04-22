@@ -1,12 +1,3 @@
-provider "azurerm" {
-    skip_provider_registration = true
-    features {}
-}
-
-// terraform {
-//     backend "azurerm" {}
-// }
-
 resource "azurerm_virtual_network" "example" {
   name                = var.vnet_name
   location            = var.location
