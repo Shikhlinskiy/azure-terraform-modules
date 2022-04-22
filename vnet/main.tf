@@ -3,9 +3,9 @@ provider "azurerm" {
     features {}
 }
 
-terraform {
-    backend "azurerm" {}
-}
+// terraform {
+//     backend "azurerm" {}
+// }
 
 resource "azurerm_virtual_network" "example" {
   name                = var.vnet_name
