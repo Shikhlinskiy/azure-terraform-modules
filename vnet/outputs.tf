@@ -1,3 +1,3 @@
-output "virtual_machine_id" {
-  value = data.azurerm_virtual_machine.example.id
+output "virtual_network_id" {
+  value = data.azurerm_virtual_network.example.id
 }
