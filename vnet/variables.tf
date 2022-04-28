@@ -6,4 +6,6 @@ variable address_space {
     type = list(string)
 }
 
-variable rg_name {}
+variable rg_name {
+    default = "dummy-name"
+}
